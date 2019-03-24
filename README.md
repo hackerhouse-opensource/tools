@@ -12,7 +12,8 @@ Utilities and tools created during computer security research activities by the 
 | *defcon18.tgz* | Defcon18 badge firmware hacking tools |
 | *diceware.tgz* | diceware password generation tool |
 | *DSIHello.tgz* | Apple DSI protocol enumeration tool (Apple File Sharing) |
-| *elf-bintools.tgz* | ELF binary tools |
+| *elf-bintools.tgz* | ELF binary analysis tools |
+| *fakemac.pl* | generates a random MAC address for spoofing |
 | *fm-radio.tgz* | Sony Xperia FM-radio hacking tool |
 | *FTPCracker.rar* | FTP server brute-force tool (GUI) |
 | *FTPScanner.rar* | FTP mass-scanner tool (GUI) |
