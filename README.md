@@ -9,9 +9,7 @@ Utilities and tools created during computer security research activities by the 
 | *bypassavp.sh*  | Sign an executable with a fake Microsoft certificate to evade PSP |
 | *combipass.tar.gz* | Creates combination files for password cracking from textfiles |
 | *CryptCmd.zip* | SSL encrypted command shell tool for Windows |
-| *DC18-BruteFirmware.zip* | Defcon18 badge brute force tool for ninja party |
-| *DC18-Keygen.zip* | Defcon18 ninja party key generator |
-| *DC18-SpaceSlots-firmware.tgz* | Defcon18 badge slot machine game |
+| *defcon18.tgz* | Defcon18 badge firmware hacking tools |
 | *diceware.tgz* | diceware password generation tool |
 | *DSIHello.tgz* | Apple DSI protocol enumeration tool (Apple File Sharing) |
 | *elf-bintools.tgz* | ELF binary tools |
