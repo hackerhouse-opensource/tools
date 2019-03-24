@@ -13,7 +13,7 @@ Utilities and tools created during computer security research activities by the 
 | *diceware.tgz* | diceware password generation tool |
 | *DSIHello.tgz* | Apple DSI protocol enumeration tool (Apple File Sharing) |
 | *elf-bintools.tgz* | ELF binary tools |
-| *fm-radio.tgz | Sony Xperia FM-radio hacking tool |
+| *fm-radio.tgz* | Sony Xperia FM-radio hacking tool |
 | *FTPCracker.rar* | FTP server brute-force tool (GUI) |
 | *FTPScanner.rar* | FTP mass-scanner tool (GUI) |
 | *mac-teensyduino.txt* | OS-X 10.6.5 teensyduino command shell injection tool |
