@@ -29,6 +29,7 @@ Utilities and tools created during computer security research activities by the 
 | *SalityInnoculation.zip* | Sality worm innoculation tool |
 | *SCRABBLE-wordlist.tgz* | Scrabble dictionary wordlist for password cracking | 
 | *spybot-0.3a.zip* | IRC monitoring chat bot for "NSA" type capabiltiies |
+| *tru64inject.c* | mach_task hacking tool for the brave alpha explorer (tru64) | 
 | *WCRYSLAP.zip* | WannaCry ransomware innoculation tool |
 
 These files are available under a Attribution-NonCommercial-NoDerivatives 4.0 International license.
