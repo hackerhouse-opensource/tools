@@ -6,6 +6,7 @@ Utilities and tools created during computer security research activities by the 
 | :--- | :--- |
 | *android-malware-grabber.tgz* | Android emulator tool to download new malware from the web |
 | *ApacheProbe.zip* | tool to perform Apache userdir enumeration (ASM) |
+| *bsides-london-2017-pwn.py * | bl4sty exploit for HackerHouse BSides London 2017 ISO lab | 
 | *bypassavp.sh*  | Sign an executable with a fake Microsoft certificate to evade PSP |
 | *combipass.tar.gz* | Creates combination files for password cracking from textfiles |
 | *CryptCmd.zip* | SSL encrypted command shell tool for Windows |
