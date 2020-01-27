@@ -23,6 +23,7 @@ Utilities and tools created during computer security research activities by the 
 | *nsediscover-kali.py* | Nmap script discovery tool (kali edition) |
 | *nsediscover.py* | Nmap script discovery tool (Linux) |
 | *openown.tgz* | Fake SSH exploit with real IP spoofing script |
+| *Peony.zip* | Windows Defender Avbypass meterpreter harness |
 | *rfsniff.tgz* | HackRF complex signal baseband tool (ncurses) |
 | *rogueap.tgz* | LinkSys router malicious access point for phishing | 
 | *rosetta.db* | Rosetta Stone database in SQLite format for UNIX administrators |
