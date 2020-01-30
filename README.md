@@ -6,7 +6,7 @@ Utilities and tools created during computer security research activities by the 
 | :--- | :--- |
 | *android-malware-grabber.tgz* | Android emulator tool to download new malware from the web |
 | *ApacheProbe.zip* | tool to perform Apache userdir enumeration (ASM) |
-| *bsides-london-2017-pwn.py * | bl4sty exploit for HackerHouse BSides London 2017 ISO lab | 
+| *bsides-london-2017-pwn.py* | bl4sty exploit for HackerHouse BSides London 2017 ISO lab | 
 | *bypassavp.sh*  | Sign an executable with a fake Microsoft certificate to evade PSP |
 | *combipass.tar.gz* | Creates combination files for password cracking from textfiles |
 | *CryptCmd.zip* | SSL encrypted command shell tool for Windows |
@@ -23,7 +23,6 @@ Utilities and tools created during computer security research activities by the 
 | *nsediscover-kali.py* | Nmap script discovery tool (kali edition) |
 | *nsediscover.py* | Nmap script discovery tool (Linux) |
 | *openown.tgz* | Fake SSH exploit with real IP spoofing script |
-| *Peony.zip* | Windows Defender Avbypass meterpreter harness |
 | *rfsniff.tgz* | HackRF complex signal baseband tool (ncurses) |
 | *rogueap.tgz* | LinkSys router malicious access point for phishing | 
 | *rosetta.db* | Rosetta Stone database in SQLite format for UNIX administrators |
