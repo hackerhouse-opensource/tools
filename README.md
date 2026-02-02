@@ -32,5 +32,6 @@ Utilities and tools created during computer security research activities by the 
 | *tru64inject.c* | mach_task hacking tool for the brave alpha explorer (tru64) | 
 | *WCRYSLAP.zip* | WannaCry ransomware innoculation tool |
 
-These files are available under a Attribution-NonCommercial-NoDerivatives 4.0 International license.
+# License
 
+These files are available under the 3-clause BSD license.
