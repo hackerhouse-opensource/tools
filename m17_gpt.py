@@ -10,9 +10,12 @@ m17_ai_bot.py - Talk to an AI over M17 through a Pi-Star hotspot (low-latency ve
 This script takes M17Gateway's place on the local UDP link, so stop
 m17gateway before running it. Works on Pi-Star 4.1 (Python 3.7).
 
+  sudo systemctl stop m17gateway.timer m17gateway.service
   export ANTHROPIC_API_KEY=sk-ant-...
   python3 m17_gpt.py --src URCALL --vosk-model ~/vosk-model-small-en-us-0.15
   python3 m17_gpt.py --src URCALL --stt-url http://127.0.0.1:8765/transcribe   (Whisper on PC)
+
+ensure you are disconnected from any reflectors. 
 """
 import argparse, audioop, json, os, queue, random, re, shutil, socket, struct, subprocess
 import sys, tempfile, threading, time, urllib.error, urllib.request, wave
@@ -34,7 +37,7 @@ SYSTEM_PROMPT = (
     "'fishing report'). Answer the most "
     "likely meaning, and if you had to guess, say what you understood in a few words first. Only ask "
     "the user to repeat if you truly cannot guess. {about}Keep everything appropriate for amateur radio: "
-    "no profanity, no music, nothing commercial. Do not say the station callsign yourself; it is "
+    "no profanity, no music, nothing commercial. Do not say the station callsign yourself; it is "f
     "added automatically."
 )
 
